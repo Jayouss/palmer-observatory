@@ -2,7 +2,7 @@
 import streamlit as st
 import plotly.express as px
 from pipeline import load_integrated, filter_data, METRICS, LABELS
-from ui import load_styles, hero, panel_heading, selection_summary, chart, COLORS, SPECIES_ORDER
+from ui import load_styles, hero, statistics, panel_heading, selection_summary, chart, COLORS, SPECIES_ORDER
 
 st.set_page_config(page_title='Palmer Observatory', page_icon='P', layout='wide')
 load_styles()
@@ -46,20 +46,7 @@ with st.sidebar:
 
 filtered = filter_data(df, species, islands, years, sexes, complete)
 hero()
-with st.container(key='kpi-row'):
-    cols = st.columns(4)
-    with cols[0], st.container(border=True, key='kpi-observations'):
-        st.metric('Observasi terpilih', f'{len(filtered):,}')
-        st.caption('dari 344 catatan lapangan')
-    with cols[1], st.container(border=True, key='kpi-species'):
-        st.metric('Spesies teramati', filtered.species.nunique())
-        st.caption(f'di {filtered.island.nunique()} pulau terpilih')
-    with cols[2], st.container(border=True, key='kpi-mass'):
-        st.metric('Rerata massa tubuh', f'{filtered.body_mass_g.mean():,.0f} g' if filtered.body_mass_g.notna().any() else '-')
-        st.caption(f'{filtered.body_mass_g.notna().sum()} pengukuran tersedia')
-    with cols[3], st.container(border=True, key='kpi-quality'):
-        st.metric('Morfologi lengkap', f'{filtered.complete_morphology.mean():.1%}' if len(filtered) else '-')
-        st.caption(f'{filtered.complete_morphology.sum()} catatan lengkap')
+statistics(filtered)
 selection_summary(filtered, len(df), species, islands, years, complete)
 overview, detail, methodology = st.tabs(['Eksplorasi visual', 'Data & kualitas', 'Arsitektur & sumber'])
 
