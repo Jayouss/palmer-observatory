@@ -1,0 +1,15 @@
+{
+  "source_repository": "https://github.com/allisonhorst/palmerpenguins",
+  "retrieved_at": "2026-10-31",
+  "license": "CC0-1.0",
+  "files": {
+    "penguins.csv": {
+      "url": "https://raw.githubusercontent.com/allisonhorst/palmerpenguins/main/inst/extdata/penguins.csv",
+      "sha256": "f204db2c753b0937caac3cb35258562c14f073e4bbc76be24b4c51ce22767a93"
+    },
+    "penguins_raw.csv": {
+      "url": "https://raw.githubusercontent.com/allisonhorst/palmerpenguins/main/inst/extdata/penguins_raw.csv",
+      "sha256": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd"
+    }
+  }
+}

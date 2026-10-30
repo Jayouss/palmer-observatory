@@ -1,0 +1,9 @@
+.packages/
+.venv/
+__pycache__/
+.pytest_cache/
+data/generated/
+.streamlit/secrets.toml
+.env
+*.log
+tmp/
