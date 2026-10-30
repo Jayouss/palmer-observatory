@@ -9,7 +9,7 @@
 
 ## Tautan pengumpulan
 
-1. **Aplikasi web live:** proses publikasi sedang diselesaikan; URL final dicatat setelah berhasil diverifikasi.
+1. **Aplikasi web live:** https://palmer-observatory.streamlit.app/
 2. **Repositori GitHub:** https://github.com/Jayouss/palmer-observatory
 3. **Sumber dataset asli:**
    - https://allisonhorst.github.io/palmerpenguins/

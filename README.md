@@ -15,7 +15,8 @@ Tugas Mandiri Terstruktur - Multi-DBMS Data Pipeline & Web Visualization dengan 
 ## Tautan utama
 
 - Repositori: https://github.com/Jayouss/palmer-observatory
-- Aplikasi live: lihat `docs/submission.json` untuk URL dan status publikasi yang diverifikasi.
+- Aplikasi live: https://palmer-observatory.streamlit.app/
+- Laporan: [Laporan implementasi (PDF)](docs/Laporan_VDI_Mohamad_Rizal_Rahmadi.pdf)
 - Sumber resmi: https://allisonhorst.github.io/palmerpenguins/
 - Dataset pengukuran: https://github.com/allisonhorst/palmerpenguins/blob/main/inst/extdata/penguins.csv
 - Dataset metadata: https://github.com/allisonhorst/palmerpenguins/blob/main/inst/extdata/penguins_raw.csv

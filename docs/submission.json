@@ -2,8 +2,10 @@
   "name": "Mohamad Rizal Rahmadi",
   "nim": "230660121114",
   "repository_url": "https://github.com/Jayouss/palmer-observatory",
-  "repository_verified": false,
-  "live_url": null,
-  "live_verified": false,
-  "status": "Pengujian dan publikasi sedang dikerjakan"
+  "repository_verified": true,
+  "live_url": "https://palmer-observatory.streamlit.app/",
+  "live_verified": true,
+  "verified_date": "2026-10-31",
+  "verification": "URL publik mengembalikan HTTP 200 tanpa login; dashboard menampilkan 344 observasi, 3 spesies, dan 99.4% morfologi lengkap. Lima pengujian otomatis lulus.",
+  "status": "Aplikasi dan repositori telah dipublikasikan"
 }
