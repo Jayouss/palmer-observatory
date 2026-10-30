@@ -5,7 +5,7 @@ from pipeline import load_integrated, filter_data, METRICS, LABELS
 
 st.set_page_config(page_title='Palmer Observatory', page_icon='P', layout='wide')
 st.markdown('''<style>
-.block-container{padding-top:2rem;max-width:1440px}
+.block-container{padding-top:5rem;max-width:1440px}
 h1{letter-spacing:-1.5px;font-weight:750!important}
 h2,h3{letter-spacing:-.5px}
 [data-testid="stMetric"]{background:white;border:1px solid #DFE7EE;border-radius:14px;padding:18px 22px}
