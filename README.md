@@ -69,6 +69,7 @@ ID berbasis urutan hanya aman untuk snapshot tervalidasi ini. Penggantian sumber
 ## 4. Fitur aplikasi
 
 - Filter spesies, pulau, rentang tahun, jenis kelamin, dan kelengkapan morfologi.
+- Tombol reset filter, ringkasan pilihan aktif, dan panel compact yang menyesuaikan layar.
 - KPI jumlah observasi, jumlah spesies, rerata massa tubuh, serta persentase morfologi lengkap.
 - Scatter dengan pemilihan kedua sumbu, simbol spesies, tooltip, dan zoom.
 - Diagram batang komposisi spesies, box plot massa tubuh, komposisi pulau, dan sampel tahunan.

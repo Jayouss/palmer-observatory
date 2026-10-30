@@ -22,3 +22,9 @@ def test_dashboard_default_filters_and_export():
     assert not app.exception
     assert app.metric[0].value == '0'
     assert len(app.get('plotly_chart')) == 0
+    app.button[0].click().run()
+    assert not app.exception
+    assert app.metric[0].value == '344'
+    assert not app.checkbox[0].value
+    assert app.slider[0].value == (2007, 2009)
+    assert len(app.get('plotly_chart')) == 5
